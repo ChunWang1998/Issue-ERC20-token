@@ -1,0 +1,22 @@
+{
+  "name": "issue-erc20-token",
+  "version": "1.0.0",
+  "description": "若要發行token,可以直接從這份去開始 ＃ run and build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChunWang1998/Issue-ERC20-token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChunWang1998/Issue-ERC20-token/issues"
+  },
+  "homepage": "https://github.com/ChunWang1998/Issue-ERC20-token#readme",
+  "dependencies": {
+    "zeppelin-solidity": "^1.12.0"
+  }
+}
