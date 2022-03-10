@@ -1,10 +1,6 @@
 pragma solidity ^0.4.24;
 import "zeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
 
-// ----------------------------------------------------------------------------
-// ERC20 Token, with the addition of symbol, name and decimals and a
-// fixed supply
-// ----------------------------------------------------------------------------
 contract BasicERC20Token is StandardToken {
     string public name = "HelloCoin";
     string public symbol = "H@";
