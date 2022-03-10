@@ -2,15 +2,15 @@
 
 若要發行token,可以直接從這份去開始
 
-# Environment
+## Environment
 
 
 
-# run and build
+## run and build
 ```
 sudo truffle migrate --reset
 truffle test
 ```
-# refer
+## refer
 
 https://gasolin.gitbooks.io/learn-ethereum-dapp/content/
