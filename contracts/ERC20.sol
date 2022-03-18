@@ -8,7 +8,7 @@ contract BasicERC20Token is StandardToken {
     uint256 public INITIAL_SUPPLY = 88888;
 
     constructor() public {
-        totalSupply_ = INITIAL_SUPPLY;
-        balances[msg.sender] = INITIAL_SUPPLY;
+        totalSupply_ = INITIAL_SUPPLY * 10**uint256(decimals);
+        balances[msg.sender] = totalSupply_;
     }
 }

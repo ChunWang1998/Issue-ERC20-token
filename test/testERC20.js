@@ -1,11 +1,12 @@
 var BasicERC20Token = artifacts.require('BasicERC20Token');
 
-const INITIAL_SUPPLY = 88888;
 const DECIMALS = 18;
+const INITIAL_SUPPLY = 88888*(10**DECIMALS);
 
 contract('BasicERC20Token', async function (accounts) {
     before(async () => {
         BasicERC20Token = await BasicERC20Token.deployed();
+        console.log("token address: "+BasicERC20Token.address);
     });
 
     describe("ERC20 basic token test", async () => {

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ChunWang1998/Issue-ERC20-token#readme",
   "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.17",
     "zeppelin-solidity": "^1.12.0"
   }
 }
