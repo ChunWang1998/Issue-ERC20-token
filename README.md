@@ -2,19 +2,11 @@
 
 若要發行token,可以直接從這份去開始
 
-<<<<<<< HEAD
+
 ## run and build
-=======
-## Environment
->>>>>>> 3ea961ad600e93a007f07b70312132e9b01a5dd7
 
 ### run on ganache(remember check truffle-config.js)
 
-<<<<<<< HEAD
-=======
-
-## run and build
->>>>>>> 3ea961ad600e93a007f07b70312132e9b01a5dd7
 ```
 npm install
 sudo truffle migrate --reset
